@@ -1,0 +1,441 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.super-container{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+/********************* Diseño Header y NavBar ***************/
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 110px;
+}
+
+.nav-bar {
+    padding: 25px;
+    background: #ffffff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-border {
+    border-color: #000000;
+    border-radius: 4em;
+    padding: 5px;
+    width: 200px;
+    height: 35px;
+    border: 2px solid;
+}
+
+.btn {
+    border-radius: 4em;
+    background: #ffac04;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border-color: transparent;
+    font-family:sans-serif;
+}
+
+
+button i{
+    display: flex;
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.nav {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: flex-end;
+}
+
+.nav i{
+    font-size: 20px;
+    color: #047718;
+}
+
+.bar-logo {
+    width: 130px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.bar-logo a img{
+    width: 100%;
+    display: flex;
+}
+
+.nav a {
+    text-decoration: none;
+    display: flex;
+    font-weight: normal;
+    color: #000000;
+    width: 18%;
+    align-content: flex-start;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/***************** Diseño Banner ***************/
+
+banner {
+    
+    width: 100%;
+    height: 650px;
+    margin-top: -20px;
+}
+
+.banner-text{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 600px;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.img-banner{
+    margin-top: -50px;
+    height: 700px;
+    width: 100%;
+    background-image: url("../img/BannerPrincipal.jpg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p{
+    color: #5e5c5c;
+}
+
+.banner-text h3{
+    font-size: 20px;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 65%;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+
+.banner-text h1{
+    font-size: 40px;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+/****************** Diseño Sobre nosotros ****************/
+
+.container-about {
+    display: flex;
+    height: 520px;
+    background-image: url(../img/fondo2.jpg);
+    background-size: 100% 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    width: 115px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -20px;
+    font-size: 10px;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.scroll {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #8c8c8c;
+    margin: 5px 0;
+    margin-right: 5px;
+
+}
+
+.container-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    width: 68%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.banner1 {
+    height: 410px;
+    width: 440px;
+    display: flex;
+    padding: 85px 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+/************** Container services *************/
+.services{
+    display: flex;
+    align-items: center;
+}
+.wraper-text{
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+    padding: 20px;
+    line-height: 30px;
+}
+.a{
+    margin: 0px 10px;
+}
+
+.text-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+    padding: 10px;
+    margin-left: 120px;
+    font-family: sans-serif;
+}
+
+.post-imgs{
+    display: flex;
+    margin-top: 35px;
+    justify-content: flex-end;
+}
+
+.slider-post{
+    width: 90%;
+    margin-top: 30px;
+
+}
+.slider-post img {
+    width: 100%;
+    height: 80%;
+}
+
+/*************** Full package ********************/
+
+.full-package {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    text-align: end;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.slider-images2 {
+    display: flex;
+    width: 100%;
+    margin: 20px 20px;
+}
+
+.text-panel2 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.wraper-text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 75%;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+
+.post-imgs2 {
+    display: flex;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+/******************** BENEFIT CARDS ************************/
+
+.benefit-cards {
+    background-image: url(../img/fondo2.jpg);
+    background-size: 100% 630px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cards-title {
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 80px;
+}
+
+.title-cards{
+    margin: 0;
+}
+
+
+
+.b{
+    position: absolute;
+    margin-top: 175px;
+}
+
+.m{
+    position: absolute;
+    margin-top: 210px;
+}
+
+.card-color{
+    color: #ffff;
+}
+
+.container-cards {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.container-cards p{
+    padding: 15px;
+    margin: 0;
+    line-height: 24px;
+}
+
+.container-cards h4{
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+}
+
+.exterior-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    justify-content: center;
+    border: 1px solid #868484;
+    background-color: #ffff;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.mid-card {
+    display: flex;
+    flex-direction: column;
+    height: 425px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border: 2px solid #3f964f;
+    border-radius: 5px;
+    background-color: #3f964f;
+}
+
+/**************************** Footer *****************************/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding:25px 110px;
+}
+
+.ftr-contact {
+    
+    text-align: start;
+    font-family: sans-serif;
+}
+
+.ftr-contact h4{
+    line-height: 20px;
+    margin: 10px;
+    font-weight: lighter;
+}
+
+.f-c-title{
+    display: flex;
+    align-items: center;
+    
+}
+
+.f-c-title i{
+    font-size: 24px;
+    color: #3f964f;
+}
+
+.f-c-title h3{
+    margin-left: 10px;
+}
+
+.social-media{
+    margin: 10px;
+    font-size: 30px;
+    color: #3f964f;
+    
+}
+.social-media a{
+    color: #3f964f;
+}
+
+/***************** Copyright bar ********************/
+
+.copyright {
+    display: flex;
+    background-color: #f7f7f7;
+    color: gray;
+    justify-content: space-between;
+    height: 60px;
+    align-items: flex-end;
+}
+
+.copyright h3{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 80px ;
+}
+
+
+

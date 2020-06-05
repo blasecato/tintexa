@@ -1,0 +1,194 @@
+/******************************** Banner ********************/
+
+.banner-about{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/BannerInterna.jpg");
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    color: #ffff;
+    font-family: sans-serif;
+    margin-left: 60px;
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+.banner-content h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+.banner-content h4{
+   font-size: 18px;
+}
+
+
+/************************* Purpose **********************/
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    line-height: 30px;
+    background-image: url(../img/fondo.jpg);
+    background-size: 100% 710px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.purpose-text {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    width: 80%;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.entity-imgs {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.entities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 20px;
+    
+}
+
+.entities h3{
+    width: 55%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.entities h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/*******************************Pruebas materiales  ***************************/
+
+.container-tests{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: sans-serif;
+    margin-top: 60px;
+
+}
+
+.test-items{
+    display: flex;
+    width: 80%;
+    padding: 50px 10px;
+}
+
+.number {
+    width: 70px;
+    margin-top: -35px;
+    height: 70px;
+    background-color: #037617;
+    color: #ffff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 70px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.icon-test {
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    line-height: 255px;
+    background-color: #fff;
+    z-index: 1;
+    margin-top: -20px;
+}
+
+.title-test {
+    display: flex;
+    width: 20%;
+
+}
+
+.desc-t {
+    
+    width: 100%;
+    margin-left: 40px;
+}
+
+.desc-t h3{
+    background-color: #d13139;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    width: 450px;
+    color: #fff;
+    margin-left: -95px;
+    border-radius: 3em;
+    
+}
+
+.content-text-{
+    margin-top: 30px;
+    
+}
+.content-text- p{
+    line-height: 30px;
+    margin:0;
+    padding: 5px 0;
+    
+}
+
+.content-text- h4{
+    margin: 0;
+    margin-top: 30px;
+    line-height: 20px;
+    
+}
+
+/**************************** Gallery *******************/
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    background: url("../img/fondo2.jpg");
+    height: 400px;
+}
+
+.pics{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
